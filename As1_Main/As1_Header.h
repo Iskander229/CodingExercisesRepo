@@ -1,11 +1,12 @@
-#ifndef As1_Header
-#define As1_Header
+#ifndef As1_Header.h
+#define As1_Header.h
 
 #include <string>
 
 class UserAccount {
 
 private:
+
 	int ID;
 	std::string userName;
 	std::string password;
@@ -19,8 +20,9 @@ public:
 	//function for login
 	bool login(const std::string& inputUserName, const std::string& inputPassword) const;
 
-	// ID getter
-	int getId() const;
+	// ID getterw
+	int getID() const;
+
 };
 
 #endif
