@@ -1,20 +1,78 @@
-// As1_Main.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <string>
+#include "As1_Header.h"
 
-int main()
-{
-    std::cout << "Hello World!\n";
+// customized functions for validation.
+std::string ValidateString(const std::string& prompt) {
+	//var
+	std::string input;
+
+	//func
+	while (true) {
+		std::cout << prompt;                 //custom output to ask user to input
+		std::getline(std::cin, input);       //getting whole line of user's input
+
+		if (std::cin.fail()) {				 //check integer or strings input for errors. (is numeric or non-numeric)
+			std::cin.clear();				 //clear error flag
+			std::cin.ignore(1000, '\n');     //ingore invalid input
+			std::cout << "user name or password are invalid \n"; //error msg
+		}
+		else { break; } //if valid strings
+	} return input;
+}
+int ValidateID(const std::string& prompt) {
+	//var
+	int input;
+
+	//func
+	while (true) {
+		std::cout << prompt;
+		std::cin >> input;
+
+		if (std::cin.fail()) {
+			std::cin.clear();              
+			std::cin.ignore(1000, '\n');   
+			std::cout << "Invalid ID.\n";
+		}
+		else {
+			std::cin.ignore(); 
+			break; // if Valid ID
+		}
+	}return input;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+//main function
+int main() {
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+	//local main vars not related to header's private vars. (for me)
+	int newID;
+	std::string newUsername;
+	std::string newPassword;
+	
+	//output + custom check
+	newID = ValidateID("Enter ID: ");
+	newUsername = ValidateString("Enter user name: ");
+	newPassword = ValidateString("Enter password: ");
+    
+	//OUTPUT ENDED.
+
+	//GETTING USER INPUT:
+
+	//create new user's object account (from class)
+	UserAccount theirAccount(newID, newUsername, newPassword); //passed new vars into class constructor (i guess))
+
+	//Ask user to re-enter his input
+	std::cout << "\n Re-enter Login: \n";
+	std::string inputUserName = ValidateString("Username check: ");
+	std::string inputPassword = ValidateString("Password check: ");
+
+	//Check function
+	if (theirAccount.login(inputUserName, inputPassword)) { //checking input using object's "login" bool from class
+		std::cout << "Login is successful\n";
+		std::cout << "Account Id: " << theirAccount.getId() << std::endl; //using getId getter to show returned ID from class
+	}
+	else {
+		std::cout << "invalid username or password re-entered. \n"; //error handling
+	}
+	return 0;
+}
