@@ -76,3 +76,9 @@ int main() {
 	}
 	return 0;
 }
+
+// feedback on this assignment: Had big difficulties with traditional guards - Issues with directories, 
+// didn't know Header file's guards should be uppercase and only with under score instead of a dot before 'h' identificator
+// Also a bit of a hard time with naming conventions as using "module" practice confuses me a bit with all those inheritances, but we did it!
+// Thank you for this assignment and perfect preparation for it (checked on keywords a lot to understand basics, really cool use of constants instead of hardcoding). 
+// Happy to practice on this module assignment! Seems very solid for future coding.
