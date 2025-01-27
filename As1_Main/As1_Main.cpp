@@ -2,44 +2,9 @@
 #include <string>
 #include "As1_Header.h"
 
-// customized functions for validation.
-std::string ValidateString(const std::string& prompt) {
-	//var
-	std::string input;
-
-	//func
-	while (true) {
-		std::cout << prompt;                 //custom output to ask user to input
-		std::getline(std::cin, input);       //getting whole line of user's input
-
-		if (std::cin.fail()) {				 //check integer or strings input for errors. (is numeric or non-numeric)
-			std::cin.clear();				 //clear error flag
-			std::cin.ignore(1000, '\n');     //ingore invalid input
-			std::cout << "user name or password are invalid \n"; //error msg
-		}
-		else { break; } //if valid strings
-	} return input;
-}
-int ValidateID(const std::string& prompt) {
-	//var
-	int input;
-
-	//func
-	while (true) {
-		std::cout << prompt;
-		std::cin >> input;
-
-		if (std::cin.fail()) {
-			std::cin.clear();              
-			std::cin.ignore(1000, '\n');   
-			std::cout << "Invalid ID.\n";
-		}
-		else {
-			std::cin.ignore(); 
-			break; // if Valid ID
-		}
-	}return input;
-}
+//custom validation functions (declarated only for easy reading other code)
+std::string ValidateString(const std::string& prompt);
+int ValidateID(const std::string& prompt);
 
 //main function
 int main() {
@@ -75,6 +40,46 @@ int main() {
 		std::cout << "invalid username or password re-entered. \n"; //error handling
 	}
 	return 0;
+}
+//main ended
+
+//custom functions declarated before.
+std::string ValidateString(const std::string& prompt) {
+	//var
+	std::string input;
+
+	//func
+	while (true) {
+		std::cout << prompt;                 //custom output to ask user to input
+		std::getline(std::cin, input);       //getting whole line of user's input
+
+		if (std::cin.fail()) {				 //check integer or strings input for errors. (is numeric or non-numeric)
+			std::cin.clear();				 //clear error flag
+			std::cin.ignore(1000, '\n');     //ingore invalid input
+			std::cout << "user name or password are invalid \n"; //error msg
+		}
+		else { break; } //if valid strings
+	} return input;
+}
+int ValidateID(const std::string& prompt) {
+	//var
+	int input;
+
+	//func
+	while (true) {
+		std::cout << prompt;
+		std::cin >> input;
+
+		if (std::cin.fail()) {
+			std::cin.clear();
+			std::cin.ignore(1000, '\n');
+			std::cout << "Invalid ID.\n";
+		}
+		else {
+			std::cin.ignore();
+			break; // if Valid ID
+		}
+	}return input;
 }
 
 // feedback on this assignment: Had big difficulties with traditional guards - Issues with directories, 
