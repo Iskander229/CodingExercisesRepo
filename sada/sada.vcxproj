@@ -24,6 +24,7 @@
     <ProjectGuid>{fe583bbc-0c44-4af1-b2c1-3537ac2ab674}</ProjectGuid>
     <RootNamespace>sada</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Don't look here</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
