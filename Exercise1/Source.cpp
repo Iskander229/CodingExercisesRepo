@@ -8,7 +8,7 @@ Account::Account(int accountId, const std::string& accountName)
 
 //filled destructor
 Account::~Account() {
-    std::cout << "destructor called\n"; //debugging to see when destructor is called (for me)
+    std::cout << "destructor called\n"; //debug to see when destructor is called
     delete money; // freeing memory allocated for money
 }
 
