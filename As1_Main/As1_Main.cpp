@@ -1,6 +1,6 @@
+#include "As1_Header.h"
 #include <iostream>
 #include <string>
-#include "As1_Header.h"
 
 //custom validation functions (declarated only for easy reading other code)
 std::string ValidateString(const std::string& prompt);
