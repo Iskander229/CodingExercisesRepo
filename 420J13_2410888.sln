@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assignment1", "As1_Main\As1_Main.vcxproj", "{6EC5B8C9-E490-409C-8FF7-102266646097}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise1", "Exercise1\Exercise1.vcxproj", "{1BC7DA0D-28BF-4F89-8E63-07EE13CB89F1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_Memory_Allocating_and_Destructing", "Exercise1\Exercise1.vcxproj", "{1BC7DA0D-28BF-4F89-8E63-07EE13CB89F1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Don't look here", "sada\sada.vcxproj", "{FE583BBC-0C44-4AF1-B2C1-3537AC2AB674}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_Little_of_Structs", "Ex_Little_of_Structs\Ex_Little_of_Structs.vcxproj", "{1B85DA22-52F5-45D8-9563-9D30FEA38038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{FE583BBC-0C44-4AF1-B2C1-3537AC2AB674}.Release|x64.Build.0 = Release|x64
 		{FE583BBC-0C44-4AF1-B2C1-3537AC2AB674}.Release|x86.ActiveCfg = Release|Win32
 		{FE583BBC-0C44-4AF1-B2C1-3537AC2AB674}.Release|x86.Build.0 = Release|Win32
+		{1B85DA22-52F5-45D8-9563-9D30FEA38038}.Debug|x64.ActiveCfg = Debug|x64
+		{1B85DA22-52F5-45D8-9563-9D30FEA38038}.Debug|x64.Build.0 = Debug|x64
+		{1B85DA22-52F5-45D8-9563-9D30FEA38038}.Debug|x86.ActiveCfg = Debug|Win32
+		{1B85DA22-52F5-45D8-9563-9D30FEA38038}.Debug|x86.Build.0 = Debug|Win32
+		{1B85DA22-52F5-45D8-9563-9D30FEA38038}.Release|x64.ActiveCfg = Release|x64
+		{1B85DA22-52F5-45D8-9563-9D30FEA38038}.Release|x64.Build.0 = Release|x64
+		{1B85DA22-52F5-45D8-9563-9D30FEA38038}.Release|x86.ActiveCfg = Release|Win32
+		{1B85DA22-52F5-45D8-9563-9D30FEA38038}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
