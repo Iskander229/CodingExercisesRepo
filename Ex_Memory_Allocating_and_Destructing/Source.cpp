@@ -1,7 +1,7 @@
 #include "Header.h"
 
 // filled constructor
-Account::Account(int accountId, const std::string& accountName)
+Account::Account(int accountId, const std::string& accountName) 
     : id(accountId), name(accountName) {
     money = new int(0); // allocate money on heap and init to 0
 }
