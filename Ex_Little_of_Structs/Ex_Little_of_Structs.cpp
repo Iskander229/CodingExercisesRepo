@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-
+//created struct
 struct Course {
 	string courseName;
 	float midtermMark;
@@ -10,7 +10,7 @@ struct Course {
 	float projectMark;
 };
 
-//declaring custom method
+//declared custom method
 void display(const Course& prompt);
 
 int main() {
