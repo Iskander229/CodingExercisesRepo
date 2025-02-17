@@ -57,7 +57,7 @@ std::string ValidateString(const std::string& prompt) {
 		if (std::cin.fail()) {				 //check integer or strings input for errors. (is numeric or non-numeric)
 			std::cin.clear();				 //clear error flag
 			std::cin.ignore(1000, '\n');     //ingore invalid input
-			std::cout << "user name or password are invalid \n"; //error msg
+			std::cout << "username or password are invalid \n"; //error msg
 		}
 		else { break; } //if valid strings
 	} return input;
