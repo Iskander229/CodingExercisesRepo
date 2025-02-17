@@ -1,5 +1,3 @@
-Contains:
-1st assignment on Bank account. 
+# C++ repo
 
-
-And some exercises.
+Repo for Advanced Structures
