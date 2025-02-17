@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankAcc_Matthew", "BankAcc_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_Memory_Allocating_and_Destructing", "Ex_Memory_Allocating_and_Destructing\Ex_Memory_Allocating_and_Destructing.vcxproj", "{D686AD89-6D0D-43DB-85E9-E4E445D9CC86}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_Student_Grade_Manager", "Ex_Student_Grade_Manager\Ex_Student_Grade_Manager.vcxproj", "{A8C2F57D-1209-47BD-AD0E-B623CAC94807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{D686AD89-6D0D-43DB-85E9-E4E445D9CC86}.Release|x64.Build.0 = Release|x64
 		{D686AD89-6D0D-43DB-85E9-E4E445D9CC86}.Release|x86.ActiveCfg = Release|Win32
 		{D686AD89-6D0D-43DB-85E9-E4E445D9CC86}.Release|x86.Build.0 = Release|Win32
+		{A8C2F57D-1209-47BD-AD0E-B623CAC94807}.Debug|x64.ActiveCfg = Debug|x64
+		{A8C2F57D-1209-47BD-AD0E-B623CAC94807}.Debug|x64.Build.0 = Debug|x64
+		{A8C2F57D-1209-47BD-AD0E-B623CAC94807}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8C2F57D-1209-47BD-AD0E-B623CAC94807}.Debug|x86.Build.0 = Debug|Win32
+		{A8C2F57D-1209-47BD-AD0E-B623CAC94807}.Release|x64.ActiveCfg = Release|x64
+		{A8C2F57D-1209-47BD-AD0E-B623CAC94807}.Release|x64.Build.0 = Release|x64
+		{A8C2F57D-1209-47BD-AD0E-B623CAC94807}.Release|x86.ActiveCfg = Release|Win32
+		{A8C2F57D-1209-47BD-AD0E-B623CAC94807}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
