@@ -20,8 +20,6 @@ int main() {
 	newUsername = ValidateString("Enter user name: ");
 	newPassword = ValidateString("Enter password: ");
 
-	//OUTPUT ENDED.
-
 	//GETTING USER INPUT:
 
 	//create new user's object account (from class)
@@ -32,7 +30,7 @@ int main() {
 	std::string inputUserName = ValidateString("Username check: ");
 	std::string inputPassword = ValidateString("Password check: ");
 
-	//Check function
+	//Using check method
 	if (theirAccount.login(inputUserName, inputPassword)) { //checking input using object's "login" bool from class
 		std::cout << "Login is successful\n";
 		std::cout << "Account Id: " << theirAccount.getId() << std::endl; //using getId getter to show returned ID from class
