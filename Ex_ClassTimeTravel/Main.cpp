@@ -11,12 +11,12 @@ private:
 public:
 	TimeTravel() { currentYear = 2025; destinationYear = 2025; } //set constructor
 
-	void setDestinationYear(int year) { //validation and new set
-		if (year < 1900 || year>2100) {
+	void setDestinationYear(int input) { //validation and new set
+		if (input < 1900 || input>2100) {
 			cout << "invalid year for time travelling!" << endl;
 		}
 		else {
-			destinationYear = year;
+			destinationYear = input;
 		}
 	}
 
