@@ -5,9 +5,9 @@ using namespace std;
 //creating struct
 struct Course {
 	string courseName;
-	float midtermMark;
-	float examMark;
-	float projectMark;
+	float midtermMark = 0;
+	float examMark = 0;
+	float projectMark = 0;
 };
 
 //declaring custom methods
