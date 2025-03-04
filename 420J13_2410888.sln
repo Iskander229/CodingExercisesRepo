@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_Generic_Func_SumArray", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VehicleManagement_using4PillarsOOPandTemplates", "VehicleManagement_using4PillarsOOPandTemplates\VehicleManagement_using4PillarsOOPandTemplates.vcxproj", "{02EEF808-33BA-4252-AAC1-6EECF445BF92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BookLibraryProject", "BookLibraryProject\BookLibraryProject.vcxproj", "{29F00140-91DC-4D77-8606-A45559846F30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Release|x64.Build.0 = Release|x64
 		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Release|x86.ActiveCfg = Release|Win32
 		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Release|x86.Build.0 = Release|Win32
+		{29F00140-91DC-4D77-8606-A45559846F30}.Debug|x64.ActiveCfg = Debug|x64
+		{29F00140-91DC-4D77-8606-A45559846F30}.Debug|x64.Build.0 = Debug|x64
+		{29F00140-91DC-4D77-8606-A45559846F30}.Debug|x86.ActiveCfg = Debug|Win32
+		{29F00140-91DC-4D77-8606-A45559846F30}.Debug|x86.Build.0 = Debug|Win32
+		{29F00140-91DC-4D77-8606-A45559846F30}.Release|x64.ActiveCfg = Release|x64
+		{29F00140-91DC-4D77-8606-A45559846F30}.Release|x64.Build.0 = Release|x64
+		{29F00140-91DC-4D77-8606-A45559846F30}.Release|x86.ActiveCfg = Release|Win32
+		{29F00140-91DC-4D77-8606-A45559846F30}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
