@@ -24,6 +24,7 @@
     <ProjectGuid>{02eef808-33ba-4252-aac1-6eecf445bf92}</ProjectGuid>
     <RootNamespace>VehicleManagementusing4PillarsOOPandTemplates</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Project_VehicleGarage</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
