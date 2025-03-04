@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_ArrayForLoop2", "Ex_Arra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_Generic_Func_SumArray", "Ex_Generic_Func_SumArray\Ex_Generic_Func_SumArray.vcxproj", "{58E6DA73-7118-428F-8017-391646B76DA2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VehicleManagement_using4PillarsOOPandTemplates", "VehicleManagement_using4PillarsOOPandTemplates\VehicleManagement_using4PillarsOOPandTemplates.vcxproj", "{02EEF808-33BA-4252-AAC1-6EECF445BF92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{58E6DA73-7118-428F-8017-391646B76DA2}.Release|x64.Build.0 = Release|x64
 		{58E6DA73-7118-428F-8017-391646B76DA2}.Release|x86.ActiveCfg = Release|Win32
 		{58E6DA73-7118-428F-8017-391646B76DA2}.Release|x86.Build.0 = Release|Win32
+		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Debug|x64.ActiveCfg = Debug|x64
+		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Debug|x64.Build.0 = Debug|x64
+		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Debug|x86.ActiveCfg = Debug|Win32
+		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Debug|x86.Build.0 = Debug|Win32
+		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Release|x64.ActiveCfg = Release|x64
+		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Release|x64.Build.0 = Release|x64
+		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Release|x86.ActiveCfg = Release|Win32
+		{02EEF808-33BA-4252-AAC1-6EECF445BF92}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
