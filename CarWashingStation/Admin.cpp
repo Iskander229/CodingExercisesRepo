@@ -1,6 +1,6 @@
 #include "Admin.h"
-#include "CarWashStation.h" // Include CarWashStation header
-#include "Service.h"        // Include Service header
+#include "CarWashStation.h" 
+#include "Service.h"        
 #include <iostream>
 
 const std::string Admin::ADMIN_PASSWORD = "admin123"; // Fixed password
@@ -27,7 +27,7 @@ void Admin::addService(CarWashStation<Service>& carWash) {
     std::cout << "Enter service ID: ";
     std::cin >> serviceID;
     std::cout << "Enter service name: ";
-    std::cin.ignore(); // Clear input buffer
+    std::cin.ignore(); 
     std::getline(std::cin, serviceName);
     std::cout << "Enter service price: ";
     std::cin >> price;

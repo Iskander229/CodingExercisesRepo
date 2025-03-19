@@ -2,8 +2,8 @@
 #define ADMIN_H
 
 #include <string>
-#include "CarWashStation.h" // Include CarWashStation header
-#include "Service.h"        // Include Service header
+#include "CarWashStation.h" 
+#include "Service.h"        
 
 class Admin {
 private:
@@ -14,9 +14,11 @@ private:
 public:
     Admin(const std::string& id, const std::string& name);
     bool login(const std::string& password) const;
-    void addService(CarWashStation<Service>& carWash); // Use CarWashStation<Service>
-    void removeService(CarWashStation<Service>& carWash); // Use CarWashStation<Service>
-    void viewSalesReport(const CarWashStation<Service>& carWash) const; // Use CarWashStation<Service>
+
+    // Using CarWashStation<Service>
+    void addService(CarWashStation<Service>& carWash); 
+    void removeService(CarWashStation<Service>& carWash); 
+    void viewSalesReport(const CarWashStation<Service>& carWash) const; 
 };
 
 #endif

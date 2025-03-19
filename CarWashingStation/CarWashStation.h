@@ -24,9 +24,9 @@ public:
     }
 
     void removeService(const std::string& serviceID) {
-        Service dummyService(serviceID, "", 0.0, 0);
+        Service dummyService(serviceID, "", 0.0, 0);  // dummy means 'base' object
         if (serviceTree.search(dummyService)) {
-            Service actualService = serviceTree.find(dummyService);
+            Service actualService = serviceTree.find(dummyService); //actual service available
             serviceTree.remove(actualService);
             std::cout << "Service removed: " << actualService.getServiceDetails() << std::endl;
         }

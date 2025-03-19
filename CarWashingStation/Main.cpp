@@ -7,9 +7,9 @@
 #include "CarWashStation.h"
 
 // Global variables
-std::unordered_map<std::string, User*> users; // Store registered users
-Admin admin("A001", "Admin User"); // Single admin
-CarWashStation<Service> carWash; // Car wash station (instantiated with Service type)
+std::unordered_map<std::string, User*> users; //Store registered users
+Admin admin("A001", "Admin User"); //Single admin
+CarWashStation<Service> carWash; //Car wash station (instantiated with Service type)
 
 void userMenu(User* user);
 void adminMenu();
@@ -70,19 +70,19 @@ void userMenu(User* user) {
         std::cin >> choice;
 
         switch (choice) {
-        case 1: // View Services
+        case 1: //View Services
             user->viewServices(carWash);
             break;
 
-        case 2: // Book Service
+        case 2: //Book Service
             user->bookService(carWash);
             break;
 
-        case 3: // View Booking History
+        case 3: //View Booking History
             user->viewBookingHistory();
             break;
 
-        case 4: // Logout
+        case 4: //Logout
             std::cout << "Logging out..." << std::endl;
             return;
 
@@ -100,19 +100,19 @@ void adminMenu() {
         std::cin >> choice;
 
         switch (choice) {
-        case 1: // Add Service
+        case 1: //Add Service
             admin.addService(carWash);
             break;
 
-        case 2: // Remove Service
+        case 2: //Remove Service
             admin.removeService(carWash);
             break;
 
-        case 3: // View Sales Report
+        case 3: //View Sales Report
             admin.viewSalesReport(carWash);
             break;
 
-        case 4: // Logout
+        case 4: //Logout
             std::cout << "Logging out..." << std::endl;
             return;
 
