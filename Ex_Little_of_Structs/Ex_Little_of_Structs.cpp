@@ -10,7 +10,7 @@ struct Course {
 	float projectMark = 0;
 };
 
-//declaring custom methods
+//declaring custom methods (see below Main)
 void display(const Course& prompt);
 int readArraySize();
 string ValidateString(const string& prompt);

@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursion", "Recursion\Recu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CarWashingStation", "CarWashingStation\CarWashingStation.vcxproj", "{0A253399-BEFE-4861-9763-3A44AA7078B8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Midterm_Ex2_EmployeeManagement", "Midterm_Ex2_EmployeeManagement\Midterm_Ex2_EmployeeManagement.vcxproj", "{C7728031-A293-482A-874F-2E533C4389AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{0A253399-BEFE-4861-9763-3A44AA7078B8}.Release|x64.Build.0 = Release|x64
 		{0A253399-BEFE-4861-9763-3A44AA7078B8}.Release|x86.ActiveCfg = Release|Win32
 		{0A253399-BEFE-4861-9763-3A44AA7078B8}.Release|x86.Build.0 = Release|Win32
+		{C7728031-A293-482A-874F-2E533C4389AA}.Debug|x64.ActiveCfg = Debug|x64
+		{C7728031-A293-482A-874F-2E533C4389AA}.Debug|x64.Build.0 = Debug|x64
+		{C7728031-A293-482A-874F-2E533C4389AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7728031-A293-482A-874F-2E533C4389AA}.Debug|x86.Build.0 = Debug|Win32
+		{C7728031-A293-482A-874F-2E533C4389AA}.Release|x64.ActiveCfg = Release|x64
+		{C7728031-A293-482A-874F-2E533C4389AA}.Release|x64.Build.0 = Release|x64
+		{C7728031-A293-482A-874F-2E533C4389AA}.Release|x86.ActiveCfg = Release|Win32
+		{C7728031-A293-482A-874F-2E533C4389AA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,7 @@ private:
 
 public:
     // Constructor
-    Book(const string& t, const string& a, int y) 
+    Book(const string& t, const string& a, int y)
         : title(t), author(a), year(y) {}
 
     //Getters
