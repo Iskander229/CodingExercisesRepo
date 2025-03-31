@@ -16,4 +16,4 @@ int main() {
     std::cout << "Last element: " << list.getLast() << std::endl;
 
     return 0;
-}//test
+}
