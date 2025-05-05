@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmployeeManagement", "Midte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linked list (circular)", "Linked list (circular)\Linked list (circular).vcxproj", "{1EC83A1F-1535-4BC9-BA73-9FF3553A6B51}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project_TextEditor", "Project_TextEditor\Project_TextEditor.vcxproj", "{2396191C-76F2-4831-B75A-BD8F563AE369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{1EC83A1F-1535-4BC9-BA73-9FF3553A6B51}.Release|x64.Build.0 = Release|x64
 		{1EC83A1F-1535-4BC9-BA73-9FF3553A6B51}.Release|x86.ActiveCfg = Release|Win32
 		{1EC83A1F-1535-4BC9-BA73-9FF3553A6B51}.Release|x86.Build.0 = Release|Win32
+		{2396191C-76F2-4831-B75A-BD8F563AE369}.Debug|x64.ActiveCfg = Debug|x64
+		{2396191C-76F2-4831-B75A-BD8F563AE369}.Debug|x64.Build.0 = Debug|x64
+		{2396191C-76F2-4831-B75A-BD8F563AE369}.Debug|x86.ActiveCfg = Debug|Win32
+		{2396191C-76F2-4831-B75A-BD8F563AE369}.Debug|x86.Build.0 = Debug|Win32
+		{2396191C-76F2-4831-B75A-BD8F563AE369}.Release|x64.ActiveCfg = Release|x64
+		{2396191C-76F2-4831-B75A-BD8F563AE369}.Release|x64.Build.0 = Release|x64
+		{2396191C-76F2-4831-B75A-BD8F563AE369}.Release|x86.ActiveCfg = Release|Win32
+		{2396191C-76F2-4831-B75A-BD8F563AE369}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
